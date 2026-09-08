@@ -2,7 +2,7 @@
 
 A lightweight concurrent email dispatcher built with Go. It reads recipients from a CSV file, renders a reusable HTML email template for each recipient, and dispatches emails concurrently using multiple worker goroutines.
 
-The project uses **Go channels**, **goroutines**, **WaitGroup**, **CSV processing**, **HTML templates**, and **SMTP**. For local development, it is designed to work with [Mailpit](https://github.com/axllent/mailpit) as a local SMTP server and email inbox.
+The project uses **Go channels**, **goroutines**, **WaitGroup**, **CSV processing**, **HTML templates**, and **SMTP**. For local development, it is designed to work with Mailpit as a local SMTP server and email inbox.
 
 ## Features
 
